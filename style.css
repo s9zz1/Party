@@ -1,10 +1,10 @@
 body {
     font-family: sans-serif;
-    background-color: #FFFDD1;
+    background-color: #E4B1AB;
     font-size:20px;
 }
 header {
-    background-color: #FFF8BD;
+    background-color: #DA5552;
     font-size:20px;
     border: 1px solid black;
     border-radius:5px;
@@ -33,14 +33,14 @@ main h1 {
     text-align:center;
     border:1px solid black;
     border-radius:10px;
-    background-color:#FFF09C ;
-    color:#FF0000;
+    background-color:#DA5552 ;
+    color:#E39695;
 
 }
 nav {
     border:1px solid black;
     border-radius:5px;
-    background-color: #FFD800;
+    background-color: #DA5552;
     margin-top:15px;
     margin-bottom:15px;
     display:block;
@@ -51,12 +51,12 @@ nav a {
     color:
 }
 footer {
-    background-color:#FFE000;
+    background-color:#DF7373;
     border:1px solid black;
     border-radius:5px;
 }
 footer p {
-    color:#4A7800;
+    color:#E4B1AB;
 }
 div p {
     color:#002A78;
@@ -64,7 +64,7 @@ div p {
     text-align:center;
 }
 div {
-    background-color: #C0CA00;
+    background-color: #CC444B;
     border:1px solid black;
     border-radius:5px;
 }
@@ -81,19 +81,13 @@ main h2 {
     border-radius:5px;
     text-align:center;
 }
-#discount {
-    background-color: #C0CA00;
-}
-#delivery {
-    background-color: #C0CA00;
-}
-#wholesale {
-    background-color: #C0CA00;
-}
-#about_us {
-     background-color: #C0CA00;
+#discount, #delivery, #wholesale, #about_us, #price  {
+    background-color: #CC444B;
 }
 a {
     text-decoration: none;
     color:#C80064;
+}
+h1 {
+    text-transform:uppercase;
 }
