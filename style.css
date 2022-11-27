@@ -91,3 +91,7 @@ a {
 h1 {
     text-transform:uppercase;
 }
+.a {
+    text-align:center;
+    display:block;
+}
