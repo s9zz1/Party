@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    background-color: #FFFDD1;
+    font-size:20px;
+}
+header {
+    background-color: #FFF8BD;
+    font-size:20px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+header a {
+    text-decoration:none;
+    color:#48160b;
+    margin-bottom:15px;
+    display:block;
+    text-align:center;
+}
+header img {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height:100px ;
+    display:block;
+    margin:0 auto;
+}
+header p {
+    margin-top: 15px;
+    text-align:center;
+}
+main h1 {
+    text-align:center;
+    border:1px solid black;
+    border-radius:10px;
+    background-color:#FFF09C ;
+    color:#FF0000;
+
+}
+nav {
+    border:1px solid black;
+    border-radius:5px;
+    background-color: #FFD800;
+    margin-top:15px;
+    margin-bottom:15px;
+    display:block;
+    text-align:center;
+}
+nav a {
+    text-decoration:none;
+    color:
+}
+footer {
+    background-color:#FFE000;
+    border:1px solid black;
+    border-radius:5px;
+}
+footer p {
+    color:#4A7800;
+}
+div p {
+    color:#002A78;
+    font-size:20px;
+    text-align:center;
+}
+div {
+    background-color: #C0CA00;
+    border:1px solid black;
+    border-radius:5px;
+}
+div img {
+    width:100px;
+    height:100px;
+}
+main {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+main h2 {
+    border:1px solid black;
+    border-radius:5px;
+    text-align:center;
+}
+#discount {
+    background-color: #C0CA00;
+}
+#delivery {
+    background-color: #C0CA00;
+}
+#wholesale {
+    background-color: #C0CA00;
+}
+#about_us {
+     background-color: #C0CA00;
+}
+a {
+    text-decoration: none;
+    color:#C80064;
+}
