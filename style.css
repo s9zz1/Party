@@ -1,10 +1,25 @@
+head, body {
+    height: 100%;
+}
 body {
     font-family: sans-serif;
-    background-color: #E4B1AB;
+    background: linear-gradient(to left, #FEAC5E,#C779D0, #4BC0C8) no-repeat;
     font-size:20px;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 header {
-    background-color: #DA5552;
+    background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8) no-repeat;
     font-size:20px;
     border: 1px solid black;
     border-radius:5px;
@@ -33,14 +48,14 @@ main h1 {
     text-align:center;
     border:1px solid black;
     border-radius:10px;
-    background-color:#DA5552 ;
+    background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8) no-repeat;
     color:#E39695;
 
 }
 nav {
     border:1px solid black;
     border-radius:5px;
-    background-color: #DA5552;
+    background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8) no-repeat;
     margin-top:15px;
     margin-bottom:15px;
     display:block;
@@ -51,12 +66,9 @@ nav a {
     color:
 }
 footer {
-    background-color:#DF7373;
+    background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8) no-repeat;
     border:1px solid black;
     border-radius:5px;
-}
-footer p {
-    color:#E4B1AB;
 }
 div p {
     color:#002A78;
@@ -64,7 +76,7 @@ div p {
     text-align:center;
 }
 div {
-    background-color: #CC444B;
+    background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8) no-repeat;
     border:1px solid black;
     border-radius:5px;
 }
@@ -82,7 +94,7 @@ main h2 {
     text-align:center;
 }
 #discount, #delivery, #wholesale, #about_us, #price  {
-    background-color: #CC444B;
+    background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8) no-repeat;
 }
 a {
     text-decoration: none;
@@ -91,7 +103,7 @@ a {
 h1 {
     text-transform:uppercase;
 }
-.a {
-    text-align:center;
+img {
     display:block;
+    margin:0 auto;
 }
